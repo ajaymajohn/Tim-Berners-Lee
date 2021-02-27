@@ -93,3 +93,20 @@ p {
 .links:hover {
     background-color: dodgerblue;
 }
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    color: white;
+    text-shadow: none;
+}
+
+#contact {
+    background: firebrick;
+}
+
+#contact iframe {
+    width: 100%;
+}
