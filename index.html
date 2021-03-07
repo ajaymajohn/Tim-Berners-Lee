@@ -1,21 +1,45 @@
 <html>
 
 <head>
-    <title>
-        Tim Berners Lee
-    </title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <title>Sir Tim Berners-Lee</title>
+
     <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
 <body>
-    <ul class="menu">
-        <li class="links"><a href="#welcome">Home</a></li>
-        <li class="links"><a href="#videos">My videos</a></li>
-        <li class="links"><a href="#work">Work</a></li>
-        <li class="links"><a href="#writings">Writings</a></li>
-        <li class="links"><a href="#contact">Contact</a></li>
-    </ul>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Tim Berners Lee</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#welcome">HOME</a></li>
+                <li><a href="#videos">VIDEOS</a></li>
+                <li><a href="#work">WORK</a></li>
+                <li><a href="#writings">WRITINGS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
     <section id="welcome">
         <div class="parallex-inner">
             <img src="https://th.bing.com/th/id/OIP.XNy-JLDpLbmV9d-6xGipSAHaEK?pid=ImgDet&rs=1" class="profile">
@@ -31,7 +55,7 @@
         <h1>
             Hi
         </h1>
-        <div class="line">
+        <div>
         </div>
         <p>
             Tim Berners-Lee is a software engineer who invented the Internet (or the World Wide Web) in 1989 while at CERN, the European Particle Physics Laboratory. He is director of the World Wide Web Consortium that he founded and a Professor in the Computer Science Department at the University of Oxford. In 2001 he became a Fellow of the Royal Society and in 2004 he was knighted.
@@ -40,7 +64,7 @@
     </section>
     <section id="videos">
         <h1>Videos</h1>
-        <div class="line">
+        <div>
         </div>
         <br><iframe width="900" height="500" src="https://www.youtube.com/embed/OM6XIICm_qo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <br><br>
@@ -48,14 +72,14 @@
     </section>
     <section id="work">
         <h1>Work</h1>
-        <div class="line">
+        <div>
         </div>
         <iframe width="900" height="500" src="https://en.wikipedia.org/wiki/Tim_Berners-Lee#Career_and_research" frameborder="0">
         </iframe>
     </section>
     <section id="writings">
         <h1>Writings</h1>
-        <div class="line">
+        <div>
         </div><a class="article" href="https://webfoundation.org/2019/03/web-birthday-30" target="_blank">30 years on, what’s next ForTheWeb?</a>
         <a class="article" href="https://interestingengineering.com/how-did-tim-berners-lee-change-the-world-with-the-world-wide-web" target="_blank">How Did Tim Berners-Lee Change the World With the World Wide Web?</a>
     </section>
